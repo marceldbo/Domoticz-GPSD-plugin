@@ -12,12 +12,19 @@ To install:
 
 To update:
 
-    Go in your Domoticz directory using a command line and open the plugins directory then the Domoticz-GPSD directory.
-    Run: git pull
-    Restart Domoticz.
+- Go in your Domoticz directory using a command line and open the plugins directory then the Domoticz-GPSD directory.
+- Run: git pull
+- Restart Domoticz.
 
-Alternative install and notes
+# Manual install including additional notes
 
-Create a new directory in `/home/pi/domoticz/plugins`, e.g. gpsd, and place the `plugin.py` file in this directory. Make the file executable: `sudo chmod 755 plugin.py`. In addition, check that the `gpsd.sock` in `/var/run` is readable for all users. If not, change the permissions as follows `sudo chmod 666 gpsd.sock`. Now stop and start the domoticz service. The plugin should be selectable under the `Hardware tab`. Before configuring, make sure that Domoticz accepts new devices. Configure the plugin. A new GPS device should be available under the `Devices tab`'.
+- Create a new directory in `/home/pi/domoticz/plugins`, e.g. gpsd, and place the `plugin.py` file in this directory. 
+- Make the file executable: `sudo chmod 755 plugin.py`.
+- Check that the `gpsd.sock` in `/var/run` is readable for all users. If not, change the permissions as follows `sudo chmod 666 gpsd.sock`.
+- Now stop and start the domoticz service.
+- The plugin should be selectable under the `Hardware tab`.
+- Before configuring, make sure that Domoticz accepts new devices.
+- Configure the plugin.
+- A new GPS device should be available under the `Devices tab`'.
 
 For convenience, I have also created and included an icon to be used with the newly created device. This can be installed by uploading the `Gpsd.zip` file to the custom icons section in the Domoticz GUI and updating the device.
