@@ -8,20 +8,19 @@ The idea for this plugin started when I made a small Raspberry Pi HAT with a GPS
 
 To install:
 
-- Go in your Domoticz directory using a command line and open the plugins directory.
+- Go into the Domoticz plugins directory using a command line.
 - Run: `git clone https://github.com/marceldbo/Domoticz-GPSD-plugin.git`
 - Restart Domoticz.
 
 To update:
 
-- Go in your Domoticz directory using a command line and open the plugins directory then the Domoticz-GPSD directory.
+- From the Domoticz plugins directory, using a command line, go into the Domoticz-GPSD-plugin directory.
 - Run: `git pull`
 - Restart Domoticz.
 
-## Manual install including additional notes
+## Configuration and additional notes
 
-- Create a new directory in `/home/pi/domoticz/plugins`, e.g. gpsd, and place the `plugin.py` file in this directory. 
-- Make the file executable: `sudo chmod 755 plugin.py`.
+- Check if the plugin file is executable `ls -al`. If not, do `sudo chmod 755 plugin.py`.
 - Check that the `gpsd.sock` in `/var/run` is readable for all users. If not, change the permissions as follows `sudo chmod 666 gpsd.sock`.
 - Now stop and start the domoticz service.
 - The plugin should be selectable under the `Hardware tab`.
