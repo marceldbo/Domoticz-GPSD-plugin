@@ -28,4 +28,4 @@ To update:
 - Configure the plugin.
 - A new GPS device should be available under the `Devices tab`.
 
-For convenience, I have also generated and included an icon to be used with the newly created device. This can be installed by uploading the `Gpsd.zip` file to the custom icons section in the Domoticz GUI and updating the device.
+For convenience, I have also generated and included an icon to be used with the newly created device. This can be installed by uploading the `Gpsd.zip` file in the custom icons section in the Domoticz GUI and updating the device.
