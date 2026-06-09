@@ -6,9 +6,9 @@ The idea of this plugin started when I made a small Raspberry Pi HAT with a GPS 
 
 To install:
 
-    Go in your Domoticz directory using a command line and open the plugins directory.
-    Run: git clone https://github.com/marceldbo/Domoticz-GPSD-plugin.git
-    Restart Domoticz.
+- Go in your Domoticz directory using a command line and open the plugins directory.
+- Run: git clone https://github.com/marceldbo/Domoticz-GPSD-plugin.git
+- Restart Domoticz.
 
 To update:
 
