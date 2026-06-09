@@ -8,8 +8,7 @@
 # Revision: 2.0.0
 #
 """
-<plugin key="GPSD_STAT" name="GPSD Status Monitor" author="Marcel de Bont & OpenAI" version="2.0.0" wikilink="" externallink="htt
-ps://github.com/marceldbo/Domoticz-GPSD-Plugin.git">
+<plugin key="GPSD_STAT" name="GPSD Status Monitor" author="Marcel de Bont & OpenAI" version="2.0.0" wikilink="" externallink="https://github.com/marceldbo/Domoticz-GPSD-Plugin.git">
     <description>
         GPSD plugin for Domoticz with stable streaming and correct satellite handling.
     </description>
