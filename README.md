@@ -23,7 +23,7 @@ To update:
 - Check if the plugin file is executable `ls -al`. If not, do `sudo chmod 755 plugin.py`.
 - Check that the `gpsd.sock` in `/var/run` is readable for all users. If not, change the permissions as follows `sudo chmod 666 gpsd.sock`.
 - Now stop and start the domoticz service.
-- The plugin should be selectable under the `Hardware tab`.
+- The plugin should be selectable under the `Hardware tab`. Look for `GPSD Status Monitor`.
 - Before configuring, make sure that Domoticz accepts new devices.
 - Configure the plugin.
 - A new GPS device should be available under the `Devices tab`.
