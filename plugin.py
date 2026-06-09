@@ -11,7 +11,7 @@
 <plugin key="GPSD_STAT" name="GPSD Status Monitor" author="Marcel de Bont & OpenAI" version="2.0.0" wikilink="" externallink="htt
 ps://github.com/marceldbo/Domoticz-GPSD-Plugin.git">
     <description>
-        Robust GPSD plugin with stable streaming and correct satellite handling.
+        GPSD plugin for Domoticz with stable streaming and correct satellite handling.
     </description>
     <params>
         <param field="Address" label="GPSD Host" width="200px" required="true" default="127.0.0.1"/>
